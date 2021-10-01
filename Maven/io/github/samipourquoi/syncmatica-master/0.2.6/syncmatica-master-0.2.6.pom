@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.samipourquoi</groupId>
+  <artifactId>syncmatica-master</artifactId>
+  <version>0.2.6</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.11.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>litematica-1.16.4-308892</artifactId>
+      <version>3175258</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>malilib-1.16.4-303119</artifactId>
+      <version>3252979</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-resource-loader-v0</artifactId>
+      <version>0.4.1+0d4d7e343a</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
